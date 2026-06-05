@@ -29,7 +29,6 @@ class Solution {
             if (cols.contains(c) || diag.contains(d) || antiDiag.contains(ad)) {
                 continue;
             }
-
             cols.add(c);
             diag.add(d);
             antiDiag.add(ad);
