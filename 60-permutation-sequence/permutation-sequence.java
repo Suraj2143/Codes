@@ -22,7 +22,6 @@ class Solution {
                 fact /= (i - 1);
             }
         }
-
         return sb.toString();
     }
 }
