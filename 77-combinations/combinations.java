@@ -12,7 +12,6 @@ class Solution {
             res.add(new ArrayList<>(temp));
             return;
         }
-
         for (int i = start; i <= n; i++) {
             temp.add(i);
             backtrack(i + 1, n, k, temp, res);
