@@ -9,7 +9,6 @@ class Solution {
 
     private void backtrack(int index, int[] nums, List<Integer> temp, List<List<Integer>> res) {
         res.add(new ArrayList<>(temp));
-
         for (int i = index; i < nums.length; i++) {
             temp.add(nums[i]);
             backtrack(i + 1, nums, temp, res);
