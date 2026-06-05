@@ -13,6 +13,5 @@ public class sortingArrayList {
         System.out.println("Before sorting: "+age);
         Collections.sort(age);
         System.out.println("After sorting: " + age);
-        
-    }
+            }
 }
