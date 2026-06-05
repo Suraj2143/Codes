@@ -23,7 +23,6 @@ class Solution {
                 return false;
             }
         }
-
         for (int i = 1; i < n; i++) {
             if (
                 (isScramble(s1.substring(0, i), s2.substring(0, i)) &&
@@ -36,7 +35,6 @@ class Solution {
                 return true;
             }
         }
-
         memo.put(key, false);
         return false;
     }
