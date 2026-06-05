@@ -11,7 +11,6 @@ class Solution {
                 dp[0][j] = dp[0][j - 1];
             }
         }
-
         for (int i = 1; i <= m; i++) {
             for (int j = 1; j <= n; j++) {
                 char sc = s.charAt(i - 1);
