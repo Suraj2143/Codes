@@ -16,7 +16,6 @@ class Solution {
                 int width = right - left - 1;
                 max = Math.max(max, height * width);
             }
-
             st.push(i);
         }
 
