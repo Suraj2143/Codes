@@ -25,7 +25,6 @@ class Solution {
                 return false;
             }
         }
-
         return num;
     }
 }
