@@ -35,7 +35,6 @@ class Solution {
                 int left = st.isEmpty() ? -1 : st.peek();
                 max = Math.max(max, height * (right - left - 1));
             }
-
             st.push(i);
         }
 
