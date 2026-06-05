@@ -40,7 +40,6 @@ class Solution {
                 if (board[r + i][c0 + j] == c) return false;
             }
         }
-
         return true;
     }
 }
